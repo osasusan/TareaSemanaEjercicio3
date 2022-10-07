@@ -16,6 +16,9 @@
 		48FB16CD28ECA479001322F9 /* Proyecto2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FB16CC28ECA479001322F9 /* Proyecto2Tests.swift */; };
 		48FB16D728ECA479001322F9 /* Proyecto2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FB16D628ECA479001322F9 /* Proyecto2UITests.swift */; };
 		48FB16D928ECA479001322F9 /* Proyecto2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FB16D828ECA479001322F9 /* Proyecto2UITestsLaunchTests.swift */; };
+		48FB16E628ECAFDE001322F9 /* ModeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FB16E528ECAFDE001322F9 /* ModeProtocol.swift */; };
+		48FB16E828ECB421001322F9 /* TableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FB16E728ECB421001322F9 /* TableData.swift */; };
+		48FB16EA28ECF58A001322F9 /* games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FB16E928ECF58A001322F9 /* games.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		48FB16D228ECA479001322F9 /* Proyecto2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Proyecto2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FB16D628ECA479001322F9 /* Proyecto2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proyecto2UITests.swift; sourceTree = "<group>"; };
 		48FB16D828ECA479001322F9 /* Proyecto2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proyecto2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48FB16E528ECAFDE001322F9 /* ModeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeProtocol.swift; sourceTree = "<group>"; };
+		48FB16E728ECB421001322F9 /* TableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableData.swift; sourceTree = "<group>"; };
+		48FB16E928ECF58A001322F9 /* games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = games.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 			isa = PBXGroup;
 			children = (
 				48FB16B528ECA477001322F9 /* AppDelegate.swift */,
+				48FB16E928ECF58A001322F9 /* games.swift */,
+				48FB16E528ECAFDE001322F9 /* ModeProtocol.swift */,
+				48FB16E728ECB421001322F9 /* TableData.swift */,
 				48FB16B728ECA477001322F9 /* SceneDelegate.swift */,
 				48FB16B928ECA477001322F9 /* ViewController.swift */,
 				48FB16BB28ECA477001322F9 /* Main.storyboard */,
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48FB16E628ECAFDE001322F9 /* ModeProtocol.swift in Sources */,
 				48FB16BA28ECA477001322F9 /* ViewController.swift in Sources */,
 				48FB16B628ECA477001322F9 /* AppDelegate.swift in Sources */,
+				48FB16EA28ECF58A001322F9 /* games.swift in Sources */,
 				48FB16B828ECA477001322F9 /* SceneDelegate.swift in Sources */,
+				48FB16E828ECB421001322F9 /* TableData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +464,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = OsasuSB.Proyecto2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -480,6 +495,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = OsasuSB.Proyecto2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
