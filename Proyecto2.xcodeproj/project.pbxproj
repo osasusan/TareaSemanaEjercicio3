@@ -16,6 +16,9 @@
 		48FB16CD28ECA479001322F9 /* Proyecto2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FB16CC28ECA479001322F9 /* Proyecto2Tests.swift */; };
 		48FB16D728ECA479001322F9 /* Proyecto2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FB16D628ECA479001322F9 /* Proyecto2UITests.swift */; };
 		48FB16D928ECA479001322F9 /* Proyecto2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FB16D828ECA479001322F9 /* Proyecto2UITestsLaunchTests.swift */; };
+		48FB16EC28F31748001322F9 /* ProtocolGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FB16EB28F31747001322F9 /* ProtocolGame.swift */; };
+		48FB16EE28F31759001322F9 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FB16ED28F31759001322F9 /* Game.swift */; };
+		48FB16F028F3176B001322F9 /* CellGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FB16EF28F3176B001322F9 /* CellGames.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		48FB16D228ECA479001322F9 /* Proyecto2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Proyecto2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FB16D628ECA479001322F9 /* Proyecto2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proyecto2UITests.swift; sourceTree = "<group>"; };
 		48FB16D828ECA479001322F9 /* Proyecto2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proyecto2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48FB16EB28F31747001322F9 /* ProtocolGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolGame.swift; sourceTree = "<group>"; };
+		48FB16ED28F31759001322F9 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		48FB16EF28F3176B001322F9 /* CellGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellGames.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				48FB16BE28ECA479001322F9 /* Assets.xcassets */,
 				48FB16C028ECA479001322F9 /* LaunchScreen.storyboard */,
 				48FB16C328ECA479001322F9 /* Info.plist */,
+				48FB16EB28F31747001322F9 /* ProtocolGame.swift */,
+				48FB16ED28F31759001322F9 /* Game.swift */,
+				48FB16EF28F3176B001322F9 /* CellGames.swift */,
 			);
 			path = Proyecto2;
 			sourceTree = "<group>";
@@ -259,6 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				48FB16BA28ECA477001322F9 /* ViewController.swift in Sources */,
+				48FB16EE28F31759001322F9 /* Game.swift in Sources */,
+				48FB16EC28F31748001322F9 /* ProtocolGame.swift in Sources */,
+				48FB16F028F3176B001322F9 /* CellGames.swift in Sources */,
 				48FB16B628ECA477001322F9 /* AppDelegate.swift in Sources */,
 				48FB16B828ECA477001322F9 /* SceneDelegate.swift in Sources */,
 			);
