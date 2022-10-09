@@ -12,9 +12,9 @@ class VcMain: UITableViewController{
    
 
     
-    var game = [Game(gameName: "Suicide Season", gameCompany: "Bring me the Horizon",gameImageUrl: "https://m.media-amazon.com/images/I/51XvDTAGK+L._SY355_.jpg"),
+    var game = [Game(gameName: " Valorant", gameCompany: "Riot game",gameImageUrl:              "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fplaypc.io%2Fwp-content%2Fuploads%2F2020%2F06%2Fvalorant.jpg&f=1&nofb=1&ipt=5fb6ba8730fc4b195873eecaa408b5372dca9c84ba0b1090e9acab8445707ad8&ipo=images"),
                 
-                Game(gameName: "Tristre", gameCompany: "Recycled J", gameImageUrl: "https://www.mondosonoro.com/wp-content/uploads/2021/09/Recycled-J-Sad-Summer.jpg")]
+                Game(gameName: "Rocket league", gameCompany: "psyonix J", gameImageUrl: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.everyeye.it%2Fimg-articoli%2Frocket-league-championship-series-competizione-esport-targata-psyonix-v5-38122.jpg&f=1&nofb=1&ipt=c14e4a2e147d32dddcb04258f03f990f1a5abbec9ee69616882ba6f85b2b30c9&ipo=images")]
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellGame : GameCell = tableView.dequeueReusableCell(withIdentifier: "cellGame", for: indexPath) as! GameCell
@@ -56,7 +56,7 @@ class VcMain: UITableViewController{
         self.tableView.isEditing = true
     }
 
-// se que falla pero me parece que esta todo bien 
+// se que falla pero me parece que esta todo bien
 }
         
     
