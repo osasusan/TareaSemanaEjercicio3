@@ -8,17 +8,30 @@
 import Foundation
 import UIKit
 
-class Game:ProtocolGame{
-    var imageUrl: String
-    
+class Game: ProtocolGame{
+   
+   
+  
     var game: String
     
     var company: String
     
-    init(gameName : String, companyName : String, image : String){
+    var description : String
+    
+    var gameGen = ""
+    
+    var imageUrl: String
+    
+    
+    
+    
+    init(gameName : String, companyName : String, descripcion :String, gen : String , image : String){
         game = gameName
         company = companyName
+        description = descripcion
+        gameGen = gen
         imageUrl = image
+       
     }
     
     func getImageUrl() -> String {
@@ -29,9 +42,21 @@ class Game:ProtocolGame{
         return game
     }
     
+    func getDescription() -> String {
+        return description
+    }
+    
+   
+   // func getgen() -> String {
+   //     return gameGen[0]
+   // }
+   //
     func getSubTitleCompany() -> String {
         return company
     }
+
+   
+    
     
     
     

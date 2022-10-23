@@ -12,10 +12,16 @@ protocol ProtocolGame{
     var imageUrl: String { get set}
     var game: String { get set}
     var company: String { get set}
+   // var gameGen : [String] {get set }
+    var description :String {get set}
+
     
     
     func getImageUrl() -> String
     func getTitle() -> String
     func getSubTitleCompany() -> String
-
+    func getDescription ()-> String
+  //  func getgen()-> String
+    
+  
 }
