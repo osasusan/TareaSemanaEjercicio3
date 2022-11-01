@@ -43,11 +43,13 @@ class DetalleGameViewController: UIViewController , UIPickerViewDelegate , UIPic
     
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         categoryView.delegate = self
         categoryView.dataSource = self
+        
         
         
         gameName.text = detailGame?.game ??
@@ -63,6 +65,6 @@ class DetalleGameViewController: UIViewController , UIPickerViewDelegate , UIPic
         ""
         nameCategory.text = detailGame?.gameGen ?? ""
         
-        }
+    }
     
 }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4800E8BC29041670008CA9B5 /* GenGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4800E8BB29041670008CA9B5 /* GenGame.swift */; };
+		4800E8BE29056A8D008CA9B5 /* NewGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4800E8BD29056A8C008CA9B5 /* NewGameVC.swift */; };
 		48F8E7D72900DF2900FD12BD /* DetalleGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F8E7D62900DF2900FD12BD /* DetalleGameViewController.swift */; };
 		48FB16B628ECA477001322F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FB16B528ECA477001322F9 /* AppDelegate.swift */; };
 		48FB16B828ECA477001322F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FB16B728ECA477001322F9 /* SceneDelegate.swift */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		4800E8BB29041670008CA9B5 /* GenGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenGame.swift; sourceTree = "<group>"; };
+		4800E8BD29056A8C008CA9B5 /* NewGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameVC.swift; sourceTree = "<group>"; };
 		48F8E7D62900DF2900FD12BD /* DetalleGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleGameViewController.swift; sourceTree = "<group>"; };
 		48FB16B228ECA477001322F9 /* Proyecto2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proyecto2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FB16B528ECA477001322F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				48FB16B528ECA477001322F9 /* AppDelegate.swift */,
 				48FB16B728ECA477001322F9 /* SceneDelegate.swift */,
 				48FB16B928ECA477001322F9 /* ViewController.swift */,
+				4800E8BD29056A8C008CA9B5 /* NewGameVC.swift */,
 				48F8E7D62900DF2900FD12BD /* DetalleGameViewController.swift */,
 				48FB16BB28ECA477001322F9 /* Main.storyboard */,
 				48FB16BE28ECA479001322F9 /* Assets.xcassets */,
@@ -283,6 +286,7 @@
 				48FB16F028F3176B001322F9 /* CellGames.swift in Sources */,
 				48FB16B628ECA477001322F9 /* AppDelegate.swift in Sources */,
 				48FB170228F89248001322F9 /* NewCellGame.swift in Sources */,
+				4800E8BE29056A8D008CA9B5 /* NewGameVC.swift in Sources */,
 				48F8E7D72900DF2900FD12BD /* DetalleGameViewController.swift in Sources */,
 				48FB16B828ECA477001322F9 /* SceneDelegate.swift in Sources */,
 			);
