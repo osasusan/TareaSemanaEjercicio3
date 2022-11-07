@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4800E8BC29041670008CA9B5 /* GenGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4800E8BB29041670008CA9B5 /* GenGame.swift */; };
 		4800E8BE29056A8D008CA9B5 /* NewGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4800E8BD29056A8C008CA9B5 /* NewGameVC.swift */; };
 		48F8E7D72900DF2900FD12BD /* DetalleGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F8E7D62900DF2900FD12BD /* DetalleGameViewController.swift */; };
 		48FB16B628ECA477001322F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FB16B528ECA477001322F9 /* AppDelegate.swift */; };
@@ -22,7 +21,6 @@
 		48FB16EC28F31748001322F9 /* ProtocolGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FB16EB28F31747001322F9 /* ProtocolGame.swift */; };
 		48FB16EE28F31759001322F9 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FB16ED28F31759001322F9 /* Game.swift */; };
 		48FB16F028F3176B001322F9 /* CellGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FB16EF28F3176B001322F9 /* CellGames.swift */; };
-		48FB170228F89248001322F9 /* NewCellGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FB170128F89248001322F9 /* NewCellGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4800E8BB29041670008CA9B5 /* GenGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenGame.swift; sourceTree = "<group>"; };
 		4800E8BD29056A8C008CA9B5 /* NewGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameVC.swift; sourceTree = "<group>"; };
 		48F8E7D62900DF2900FD12BD /* DetalleGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleGameViewController.swift; sourceTree = "<group>"; };
 		48FB16B228ECA477001322F9 /* Proyecto2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proyecto2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,7 +59,6 @@
 		48FB16EB28F31747001322F9 /* ProtocolGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolGame.swift; sourceTree = "<group>"; };
 		48FB16ED28F31759001322F9 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		48FB16EF28F3176B001322F9 /* CellGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellGames.swift; sourceTree = "<group>"; };
-		48FB170128F89248001322F9 /* NewCellGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCellGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,9 +120,7 @@
 				48FB16C328ECA479001322F9 /* Info.plist */,
 				48FB16EB28F31747001322F9 /* ProtocolGame.swift */,
 				48FB16ED28F31759001322F9 /* Game.swift */,
-				4800E8BB29041670008CA9B5 /* GenGame.swift */,
 				48FB16EF28F3176B001322F9 /* CellGames.swift */,
-				48FB170128F89248001322F9 /* NewCellGame.swift */,
 			);
 			path = Proyecto2;
 			sourceTree = "<group>";
@@ -280,12 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				48FB16BA28ECA477001322F9 /* ViewController.swift in Sources */,
-				4800E8BC29041670008CA9B5 /* GenGame.swift in Sources */,
 				48FB16EE28F31759001322F9 /* Game.swift in Sources */,
 				48FB16EC28F31748001322F9 /* ProtocolGame.swift in Sources */,
 				48FB16F028F3176B001322F9 /* CellGames.swift in Sources */,
 				48FB16B628ECA477001322F9 /* AppDelegate.swift in Sources */,
-				48FB170228F89248001322F9 /* NewCellGame.swift in Sources */,
 				4800E8BE29056A8D008CA9B5 /* NewGameVC.swift in Sources */,
 				48F8E7D72900DF2900FD12BD /* DetalleGameViewController.swift in Sources */,
 				48FB16B828ECA477001322F9 /* SceneDelegate.swift in Sources */,
